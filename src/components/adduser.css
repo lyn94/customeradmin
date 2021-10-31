@@ -1,0 +1,54 @@
+.Customer {
+    width: 450px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #46529d;
+    color: #fff;
+}
+
+.Customer h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.Customer p {
+    margin: 15px 0;
+}
+
+.Customer p label {
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+}
+
+.Customer p input {
+    width: 70%;
+    height: 25px;
+    padding: 5px 15px;
+    border: 0;
+}
+
+.Customer p button {
+    width: 70px;
+    height: 30px;
+    display: inline-block;
+    background-color: #2ebaee;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 3px;
+}
+
+.Customer p button.editBtn {
+    background-color: #2ebaee;
+}
+
+.Customer p button.canBtn {
+    background-color: #d3614e;
+}
+
+
+
+.Customer p:last-child{
+    text-align: center;
+}

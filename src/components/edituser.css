@@ -1,0 +1,52 @@
+.Customer h2.users {
+    margin-top: 30px;
+    padding: 10px 0;
+}
+
+.Customer table {
+    width: 100%;
+}
+
+.Customer table .name {
+    width: 22%;
+}
+
+.Customer table .addr {
+    width: 22%;
+}
+
+.Customer table .admin {}
+
+.Customer table tr {
+    background-color: #addaeb
+}
+
+.Customer table th,
+.Customer table td {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.Customer table th {
+    color: #fff;
+    background-color:#2ebaee
+}
+
+.Customer td button {
+    width: 60px;
+    height: 30px;
+    margin-right: 15px;
+    font-size: 24px;
+    color: #fff;
+}
+.Customer td button.editBtn {
+    background-color: #8dba83;
+    
+}
+.Customer td button.delBtn {
+    background-color: #d3614e;
+} 
+
+.Customer td button:last-child {
+    margin-right: 0;
+}
